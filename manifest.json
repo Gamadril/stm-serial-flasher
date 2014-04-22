@@ -1,0 +1,23 @@
+{
+    "name": "STM serial flasher",
+    "description": "Programmer for STM microcontrollers with the embedded bootloader using serial port",
+    "manifest_version": 2,
+    "version": "0.1",
+    "minimum_chrome_version": "33",
+    "permissions": [
+        "serial", "storage",
+        {
+            "fileSystem": ["write", "retainEntries"]
+        }
+    ],
+    "app": {
+        "background": {
+            "scripts": ["js/background.js"]
+        }
+    }
+    ,
+    "icons": {
+        "128": "res/logo_128.png",
+        "256": "res/logo_256.png"
+    }
+}
