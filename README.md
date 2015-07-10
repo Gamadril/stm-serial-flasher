@@ -16,6 +16,7 @@ Open chrome://extensions/ in Chrome and press "Load unpacked extension...". Sele
 
 Device connection
 -----------------
+Connect the device to your PC using a TTL level shifter.
 
 | Device  | Host |
 | ------- | ---- |
