@@ -1,4 +1,4 @@
-STM serial flasher
+<img src='https://raw.githubusercontent.com/Gamadril/stm-serial-flasher/master/res/logo_128.png' width='40px' height='40px' /> STM serial flasher
 ==================
 
 STM serial flasher is a Chrome App for programming the STM controllers using the embedded ROM bootloader over a serial port.
