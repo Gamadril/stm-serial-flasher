@@ -1,4 +1,4 @@
-<img src='https://raw.githubusercontent.com/Gamadril/stm-serial-flasher/master/public/res/logo_128.png' width='40px' height='40px' /> STM serial flasher
+<img src='https://raw.githubusercontent.com/Gamadril/stm-serial-flasher/master/public/res/logo_128.png' width='40px' height='40px' /> Web STM Flasher (serial)
 ==================
 
 STM serial flasher is a Web App for programming the STM controllers using the embedded ROM bootloader over a serial port. It uses Chrome's Web Serial API (experimental) and works only with browsers based on Chromium like Chrome, Edge and Opera.
@@ -10,7 +10,7 @@ The old version, which was impmeneted as Chrome extension can be found in the br
 Requirements
 ------------
 Latest Chromium based Browsers (Chrome, Opera, Edge). Current code based was tested on Chrome v86 beta.
-Since the Web Serial API is highly experimental you need to activate the "[Experimental Web Platform features](chrome://flags/#enable-experimental-web-platform-features)" first.
+Since the Web Serial API is highly experimental you need to activate the "Experimental Web Platform features" (chrome://flags/#enable-experimental-web-platform-features) first.
 
 
 Device connection
