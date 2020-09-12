@@ -1,4 +1,4 @@
-<img src='https://raw.githubusercontent.com/Gamadril/stm-serial-flasher/master/res/logo_128.png' width='40px' height='40px' /> STM serial flasher
+<img src='https://raw.githubusercontent.com/Gamadril/stm-serial-flasher/master/public/res/logo_128.png' width='40px' height='40px' /> STM serial flasher
 ==================
 
 STM serial flasher is a Web App for programming the STM controllers using the embedded ROM bootloader over a serial port. It uses Chrome's Web Serial API (experimental) and works only with browsers based on Chromium like Chrome, Edge and Opera.
@@ -24,7 +24,7 @@ Connect the device to your PC using a TTL level shifter.
 | RX                | TX              |
 | NRST              | DTR             |
 | BOOT0<sup>*</sup> | RTS<sup>*</sup> |
-|                   |                 |
+
 *: for STM32 only
 
 Make sure you choose the right USART interface of the targe since the bootloader is not listening on all USART interfaces. For STM32 microcontrollers check AN2606 for more info. 
