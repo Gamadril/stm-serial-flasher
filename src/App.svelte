@@ -92,6 +92,7 @@
                         content
                     );
                 } else if (ext === 'bin') {
+                    startAddress = parseInt(settings.startAddress);
                     records = [
                         {
                             type: 'data',

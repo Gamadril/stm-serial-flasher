@@ -32,7 +32,9 @@ Connect the device to your PC using a TTL level shifter.
 
 Make sure you choose the right USART interface of the targe since the bootloader is not listening on all USART interfaces. For STM32 microcontrollers check AN2606 for more info. 
 
-### stm32f4-discovery:
+
+## Connection of tested boards
+### stm32f4-discovery
 | Device | Host |
 | ------ | ---- |
 | GND    | GND  |
@@ -48,6 +50,15 @@ Make sure you choose the right USART interface of the targe since the bootloader
 | CN4-10 | RX   |
 | CN4-11 | TX   |
 | CN1-1  | DTR  |
+
+### NUCLEO-F303RE
+| Device | Host |
+| ------ | ---- |
+| GND    | GND  |
+| PA10   | TX   |
+| PA9    | RX   |
+| NRST   | DTR  |
+| BOOT0  | RTS  |
 
 3rd party components
 --------------------
