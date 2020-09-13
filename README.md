@@ -4,7 +4,7 @@
 STM serial flasher is a Web App for programming the STM controllers using the embedded ROM bootloader over a serial port. It uses Chrome's Web Serial API (experimental) and works only with browsers based on Chromium like Chrome, Edge and Opera.
 The app supports STM8 and STM32 microcontrollers. Tests were done on the STM8-Discovery and STM32f4-discovery boards.
 
-The old version, which was impmeneted as Chrome extension can be found in the branch of this repository.
+The old version, which was implemented as Chrome extension can be found in the branch of this repository.
 
 
 Requirements
@@ -25,7 +25,7 @@ Connect the device to your PC using a TTL level shifter.
 | NRST              | DTR             |
 | BOOT0<sup>*</sup> | RTS<sup>*</sup> |
 
-*: for STM32 only
+*: for STM32 only.
 
 Make sure you choose the right USART interface of the targe since the bootloader is not listening on all USART interfaces. For STM32 microcontrollers check AN2606 for more info. 
 
