@@ -3,6 +3,7 @@
     import logger from './api/Logger';
     import PortDialog from './PortDialog.svelte';
     import SettingsDialog from './SettingsDialog.svelte';
+    import NotSupportedDialog from './NotSupportedDialog.svelte';
     import { fade } from 'svelte/transition';
     import WebSerial from './api/WebSerial';
     import { STMApi } from './api/STMapi';
@@ -421,5 +422,9 @@
 
     {#if showSettingsDialog}
         <SettingsDialog on:close={() => (showSettingsDialog = false)} />
+    {/if}
+
+    {#if !navigator.serial}
+        <NotSupportedDialog/>
     {/if}
 </div>
