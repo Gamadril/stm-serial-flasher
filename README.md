@@ -9,7 +9,7 @@ The old version, which was implemented as Chrome extension can be found in the b
 
 Requirements
 ------------
-Latest Chromium based Browsers (Chrome, Opera, Edge). Current code based was tested on Chrome v86 beta.
+Latest Chromium based Browsers (Chrome, Opera, Edge). Current code base was tested on Chrome v86 beta.
 Since the Web Serial API is highly experimental you need to activate the "Experimental Web Platform features" (chrome://flags/#enable-experimental-web-platform-features) first.
 
 Open the [Web App](https://gamadril.github.io/stm-serial-flasher/)
@@ -38,8 +38,8 @@ Make sure you choose the right USART interface of the targe since the bootloader
 | Device | Host |
 | ------ | ---- |
 | GND    | GND  |
-| PB10   | TX   |
-| PB11   | RX   |
+| PB10   | RX   |
+| PB11   | TX   |
 | NRST   | DTR  |
 | BOOT0  | RTS  |
 
